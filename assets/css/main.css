@@ -14195,11 +14195,13 @@ strong {
   background: linear-gradient(var(--tc-bg-3), var(--tc-bg-3)) padding-box,
     linear-gradient(var(--angle), var(--tc-bg-3) 85%, var(--tc-theme-primary-2) 100%) border-box;
   animation: 8s rotate linear infinite;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 .section-service-2 .card-servies-2:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.35),
+    0 0 0 1px var(--tc-theme-primary-2),
+    0 0 18px rgba(168, 255, 83, 0.35);
 }
 
 .section-experience .technology:hover {
